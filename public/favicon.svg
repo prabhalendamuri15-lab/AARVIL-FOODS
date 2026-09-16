@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">AARVIL Foods</title>
+  <rect width="64" height="64" rx="14" fill="#fff8ea"/>
+  <path d="M12 52 32 10l20 42h-9l-4-9H25l-4 9h-9Zm17-17h7l-3.5-8.2L29 35Z" fill="#0b2d48"/>
+  <path d="M28 37c6-9 14-13 24-13-5 4-9 9-12 15-4-2-8-3-12-2Z" fill="#b07a20"/>
+  <path d="M25 38c-3-9 0-15 9-20-2 7-1 13 3 18-4-1-8 0-12 2Z" fill="#1f7a3a"/>
+  <path d="M23 42c0-7 4-12 11-16-2 7-1 12 3 16-5-2-9-2-14 0Z" fill="#b92d22"/>
+</svg>

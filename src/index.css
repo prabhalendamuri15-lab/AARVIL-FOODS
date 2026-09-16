@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-chilli: #7A1717;
+    --color-mango: #D99A16;
+    --color-green: #455A32;
+    --color-cream: #F8F2E7;
+    --color-brown: #211713;
+  }
+
+  html, body, #root {
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #F8F2E7;
+    color: #211713;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Editorial Headings Typography Default */
+  h1, h2, h3, h4, .font-serif-title {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    letter-spacing: -0.01em;
+  }
+}
+
+/* Custom Scrollbar for sleek editorial experience */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F8F2E7;
+}
+::-webkit-scrollbar-thumb {
+  background: #C9C3BC;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7A1717;
+}
+
+/* Focus styles for keyboard accessibility */
+*:focus-visible {
+  outline: 2px solid #7A1717;
+  outline-offset: 2px;
+}
+
+/* Custom Typography Utility Classes */
+.text-display-hero {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(2.5rem, 5.5vw, 4.25rem);
+  line-height: 1.02;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.text-h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(2.25rem, 4vw, 3.25rem);
+  line-height: 1.1;
+  font-weight: 600;
+}
+
+.text-h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(1.75rem, 3vw, 2.5rem);
+  line-height: 1.15;
+  font-weight: 600;
+}
+
+.text-h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(1.35rem, 2vw, 1.85rem);
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+.text-body-lg {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: clamp(1rem, 1.2vw, 1.125rem);
+  line-height: 1.6;
+}
+
+.text-body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1.55;
+}
+
+.text-body-sm {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.text-caption {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 0.75rem;
+  line-height: 1.4;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
